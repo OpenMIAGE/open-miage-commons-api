@@ -30,7 +30,7 @@ interface OpenM_Service {
     const RETURN_ERROR_MESSAGE_ONLY_CALLABLE_BY_USER_VALUE = "Restricted to USER usage only";
     const RETURN_ERROR_MESSAGE_UNKNOWN_VALUE = "Unknown error occurs";
     
-    const TRUE_PARAMETER_VALUE = "true";
-    const FALSE_PARAMETER_VALUE = "false";
+    const TRUE_PARAMETER_VALUE = 1;
+    const FALSE_PARAMETER_VALUE = 0;
 }
 ?>
