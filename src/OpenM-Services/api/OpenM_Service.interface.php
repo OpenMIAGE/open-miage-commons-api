@@ -31,8 +31,6 @@ interface OpenM_Service {
     const RETURN_ERROR_MESSAGE_ONLY_CALLABLE_BY_USER_VALUE = "Restricted to USER usage only";
     const RETURN_ERROR_CODE_ONLY_CALLABLE_BY_USER_VALUE = -2;
     const RETURN_ERROR_MESSAGE_UNKNOWN_VALUE = "Unknown error occurs";
-    const RETURN_ERROR_MESSAGE_NOT_CONNECTED_VALUE = "not connected";
-    const RETURN_ERROR_CODE_NOT_CONNECTED_VALUE = -1;
     
     const TRUE_PARAMETER_VALUE = 1;
     const FALSE_PARAMETER_VALUE = 0;
